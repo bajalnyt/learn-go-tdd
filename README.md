@@ -9,4 +9,8 @@ Go's built-in testing toolkit features a coverage tool. Whilst striving for 100%
 
 
 * https://go.dev/blog/examples
-* [Here](https://play.golang.org/p/bTrRmYfNYCp) is an example of slicing an array and how changing the slice affects the original array; but a "copy" of the slice will not affect the original array. [Another](https://play.golang.org/p/Poth8JS28sc) example of why it's a good idea to make a copy of a slice after slicing a very large slice.
+* [Here](https://play.golang.org/p/bTrRmYfNYCp) is an example of slicing an array and how changing the slice affects the original array; but a "copy" of the slice will not affect the original array. 
+* [Another](https://play.golang.org/p/Poth8JS28sc) example of why it's a good idea to make a copy of a slice after slicing a very large slice.
+* https://github.com/golang/go/wiki/TableDrivenTests (See [shapes](/shapes))
+
+> The test speaks to us more clearly, as if it were an assertion of truth, not a sequence of operations
